@@ -1,0 +1,81 @@
+    body {
+      font-family: 'Inter', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #edf2f7;
+      text-align: center;
+      color: #1a202c;
+    }
+
+    .container {
+      max-width: 480px;
+      margin: auto;
+      padding: 2rem 1rem;
+    }
+
+    .avatar {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 1rem;
+    }
+
+    h1 {
+      font-size: 1.2rem;
+      color: #1e3a8a;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      font-family: 'Roboto Mono', monospace;
+      font-size: 0.9rem;
+      color: #1e3a8a;
+      margin-bottom: 1rem;
+      line-height: 1.5;
+    }
+
+    .button {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start; /* penting: membuat isi mulai dari kiri */
+      background-color: white;
+      border-radius: 9999px;
+      padding: 1rem;
+      font-weight: bold;
+      margin: 1rem 0;
+      color: #1e3a8a;
+      border: 1px solid #cbd5e0;
+      cursor: pointer;
+      text-decoration: none;
+      font-size: 1rem;
+      width: 100%;         /* biar logo bisa ke kiri */
+      max-width: 480px;    /* sesuai container */
+      box-sizing: border-box;
+      gap: 1rem;
+    }
+
+    .button img {
+      width: 32px; /* diperbesar */
+      height: 32px;
+      margin-left: 1rem;
+    }
+
+    .button span {
+      flex: 1;
+      text-align: center;
+      margin-right: 2rem;
+    }
+
+    .icons {
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+      margin-top: 2rem;
+    }
+
+    .icons a {
+      color: #1e3a8a;
+      text-decoration: none;
+      font-size: 1.5rem;
+    }
